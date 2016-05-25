@@ -28,7 +28,7 @@ Class MainWindow
         debugMode = False
         'debugMode = True
         lt = LTGetter.getLTAPIServer
-        If debugMode Then
+        If Not debugMode Then
             If IsNothing(lt) Then
                 MsgBox("LightTools session not found!")
             Else
