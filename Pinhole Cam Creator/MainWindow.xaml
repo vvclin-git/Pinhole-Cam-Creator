@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LumGlare"
         mc:Ignorable="d"
-        Title="Pinhole Camera Creator" Height="264" Width="528" ResizeMode="NoResize">
+        Title="Pinhole Camera Creator" Height="273" Width="538" ResizeMode="NoResize">
     <Grid Margin="5,0,5,5">
-        <GroupBox x:Name="groupBox1" Header="GroupBox" HorizontalAlignment="Left" Height="64" Margin="5,161,0,0" VerticalAlignment="Top" Width="390">
+        <GroupBox x:Name="groupBox1" Header="Mesh Information" HorizontalAlignment="Left" Height="64" Margin="5,161,0,0" VerticalAlignment="Top" Width="390">
             <Grid Margin="0">
                 <Label x:Name="label" Content="Minimal Mesh Ω" HorizontalAlignment="Left" Height="23" Margin="6,9,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="minStrOut" HorizontalAlignment="Left" Height="23" Margin="114,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" IsReadOnly="True"/>
